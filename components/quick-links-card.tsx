@@ -20,7 +20,7 @@ const links = [
 
 export function QuickLinksCard() {
   return (
-    <div className="flex flex-col gap-4 rounded-2xl border border-border bg-card p-6 transition-colors hover:border-neon/40">
+    <div className="flex flex-col gap-4 rounded-2xl border border-border bg-card p-6 transition-colors hover:border-neon/30">
       <h2 className="text-lg font-semibold text-card-foreground">Quick Links</h2>
       <div className="flex flex-col gap-2">
         {links.map((link) => (
