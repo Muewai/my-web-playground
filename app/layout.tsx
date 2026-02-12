@@ -1,27 +1,21 @@
-import React from "react"
 import type { Metadata, Viewport } from 'next'
-import { Noto_Sans_Thai, Inter } from 'next/font/google'
+import { Inter, JetBrains_Mono } from 'next/font/google'
 
 import './globals.css'
 
-const notoSansThai = Noto_Sans_Thai({
-  subsets: ['thai', 'latin'],
-  variable: '--font-noto-sans-thai',
-})
-
-const inter = Inter({
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const jetbrainsMono = JetBrains_Mono({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-jetbrains-mono',
 })
 
 export const metadata: Metadata = {
-  title: 'LETcare - โซลาร์เซลล์ & ระบบความปลอดภัยอัจฉริยะ',
-  description:
-    'ติดตั้งโซลาร์เซลล์พร้อมระบบ Smart Security ครบวงจร ลดค่าไฟ พร้อมดูแลความปลอดภัย 24 ชม.',
+  title: 'My Web Playground',
+  description: 'Learning Next.js, one component at a time.',
 }
 
 export const viewport: Viewport = {
-  themeColor: '#FF6400',
+  themeColor: '#0f1117',
 }
 
 export default function RootLayout({
@@ -30,9 +24,9 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="th">
+    <html lang="en">
       <body
-        className={`${notoSansThai.variable} ${inter.variable} font-sans antialiased`}
+        className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased`}
       >
         {children}
       </body>

@@ -1,28 +1,39 @@
-import { Navbar } from "@/components/navbar"
 import { HeroSection } from "@/components/hero-section"
-import { TrustStats } from "@/components/trust-stats"
-import { WhyChoose } from "@/components/why-choose"
-import { SolarSecurity } from "@/components/solar-security"
-import { PackagesSection } from "@/components/packages-section"
-import { PortfolioSection } from "@/components/portfolio-section"
-import { TestimonialsSection } from "@/components/testimonials-section"
-import { BlogSection } from "@/components/blog-section"
-import { FinalCta } from "@/components/final-cta"
+import { ProjectsCard } from "@/components/projects-card"
+import { QuickLinksCard } from "@/components/quick-links-card"
+import { LearningProgressCard } from "@/components/learning-progress-card"
+import { InteractiveLabCard } from "@/components/interactive-lab-card"
+import { TodoList } from "@/components/todo-list"
 import { Footer } from "@/components/footer"
 
-export default function Home() {
+export default function Page() {
   return (
-    <main>
-      <Navbar />
+    <main className="mx-auto max-w-5xl px-4 pb-8 md:px-6">
       <HeroSection />
-      <TrustStats />
-      <WhyChoose />
-      <SolarSecurity />
-      <PackagesSection />
-      <PortfolioSection />
-      <TestimonialsSection />
-      <BlogSection />
-      <FinalCta />
+
+      {/* Bento Grid */}
+      <section className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+        {/* Projects - spans 2 rows on lg */}
+        <div className="lg:row-span-2">
+          <ProjectsCard />
+        </div>
+
+        {/* Quick Links */}
+        <QuickLinksCard />
+
+        {/* Learning Progress */}
+        <LearningProgressCard />
+
+        {/* Interactive Lab */}
+        <div className="md:col-span-2 lg:col-span-1">
+          <InteractiveLabCard />
+        </div>
+      </section>
+
+      {/* Mini Tool Section */}
+      <TodoList />
+
+      {/* Footer */}
       <Footer />
     </main>
   )
