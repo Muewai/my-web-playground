@@ -2,10 +2,10 @@ import { BookOpen } from "lucide-react"
 import { Progress } from "@/components/ui/progress"
 
 const skills = [
-  { name: "HTML & CSS", progress: 90 },
-  { name: "JavaScript", progress: 75 },
-  { name: "React", progress: 60 },
-  { name: "Next.js", progress: 40 },
+  { name: "HTML & CSS", progress: 50 },
+  { name: "JavaScript", progress: 0 },
+  { name: "React", progress: 0 },
+  { name: "Next.js", progress: 0 },
 ]
 
 export function LearningProgressCard() {
