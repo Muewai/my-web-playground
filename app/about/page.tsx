@@ -31,7 +31,7 @@ export default function AboutPage() {
             <Car className="h-8 w-8 text-neon mb-4" />
             <h2 className="text-xl font-semibold mb-2">Hobbies</h2>
             <p className="text-muted-foreground">
-              ชอบแต่งรถ Suzuki Swift, ฝึกบินโดรน FPV และงาน 3D Printing สำหรับแก้ปัญหาต่าง ๆ ในบ้านครับ
+              ชอบซ่อมรถ ซ่อมของ, ฝึกบินโดรน FPV และงาน 3D Printing สำหรับแก้ปัญหาต่าง ๆ ในบ้านครับ
             </p>
           </div>
 
@@ -48,6 +48,7 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
+        <Footer />
       </main>
     </div>
   );
