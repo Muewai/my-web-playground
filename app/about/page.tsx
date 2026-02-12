@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowLeft, Rocket, Car, Heart } from "lucide-react";
+import { Footer } from "@/components/footer"; // <--- ต้องมีบรรทัดนี้!
 
 export default function AboutPage() {
   return (
@@ -47,8 +48,8 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
+          <Footer />
         </div>
-        <Footer />
       </main>
     </div>
   );
