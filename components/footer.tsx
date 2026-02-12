@@ -1,4 +1,5 @@
-import { Github, Globe, Video, Code2 } from "lucide-react"
+import { Github, Globe, Video, Code2, User } from "lucide-react" // เพิ่ม User icon มาเล่นๆ ได้ครับ
+import Link from "next/link" // <--- 1. เพิ่มบรรทัดนี้
 
 const socials = [
   { name: "GitHub", href: "https://github.com", icon: Github },
@@ -16,6 +17,8 @@ export function Footer() {
             Web Playground
           </span>
         </div>
+        
+        {/* 2. ส่วนปุ่ม Social เดิมของคุณ */}
         <div className="flex items-center gap-4">
           {socials.map((social) => (
             <a
@@ -30,9 +33,19 @@ export function Footer() {
             </a>
           ))}
         </div>
-        <p className="text-xs text-muted-foreground">
-          Built with Next.js & Tailwind CSS
-        </p>
+
+        {/* 3. เพิ่มลิงก์ไปหน้า About ตรงนี้ */}
+        <div className="flex items-center gap-4">
+           <Link 
+            href="/about" 
+            className="text-xs text-muted-foreground hover:text-neon transition-colors"
+          >
+            About Me (หน้า 2)
+          </Link>
+          <p className="text-xs text-muted-foreground">
+            Built with Next.js & Tailwind CSS
+          </p>
+        </div>
       </div>
     </footer>
   )
