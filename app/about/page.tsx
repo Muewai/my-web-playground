@@ -48,8 +48,8 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
-          <Footer />
         </div>
+         <Footer />
       </main>
     </div>
   );
