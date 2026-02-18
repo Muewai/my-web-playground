@@ -45,11 +45,10 @@ export function BentoGrid() {
                 Catalog
               </span>
               <h3 className="font-heading text-2xl font-bold text-foreground uppercase sm:text-3xl">
-                Used Parts Catalog
+                คลังอะไหล่มือสอง
               </h3>
               <p className="mt-2 max-w-sm text-sm text-muted-foreground leading-relaxed">
-                Browse our extensive inventory of certified pre-owned parts for
-                cars and motorcycles. Every part inspected and tested.
+                อะไหล่ถอดแท้จากรถยนต์และมอเตอร์ไซค์ เช็คสภาพแล้วทุกชิ้นก่อนส่ง
               </p>
               <button className="mt-4 flex items-center gap-2 text-sm font-medium text-primary transition-colors hover:text-primary/80 cursor-pointer">
                 Browse Catalog
@@ -75,11 +74,10 @@ export function BentoGrid() {
                 <Wrench className="h-6 w-6 text-primary" />
               </div>
               <h3 className="font-heading text-xl font-bold text-foreground uppercase">
-                Repair & Installation Services
+                บริการซ่อมและติดตั้ง
               </h3>
               <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
-                Expert mechanics ready to install your parts or diagnose and fix
-                any issue. From engine rebuilds to custom fabrication.
+                รับติดตั้งอะไหล่ แก้ไขอาการเสีย หรือดัดแปลงงานสร้าง เราดูแลให้ครบ
               </p>
               <button className="mt-auto flex items-center gap-2 pt-4 text-sm font-medium text-primary transition-colors hover:text-primary/80 cursor-pointer">
                 Book Service
@@ -102,11 +100,10 @@ export function BentoGrid() {
               <ShieldCheck className="h-5 w-5 text-primary" />
             </div>
             <h3 className="mt-4 font-heading text-lg font-bold text-foreground uppercase">
-              Trust & Warranty
+              รับประกันความพอใจ
             </h3>
             <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
-              100% Genuine Parts. Every item comes with our quality guarantee and
-              warranty coverage.
+              ของแท้แน่นอน มีประกันใจให้ทุกชิ้น ใส่ไม่ได้คืนเงินเต็มจำนวน
             </p>
             <div className="mt-4 flex items-center gap-2">
               <span className="rounded-full bg-primary/15 px-3 py-1 text-xs font-semibold text-primary">
@@ -124,10 +121,10 @@ export function BentoGrid() {
               <Search className="h-5 w-5 text-primary" />
             </div>
             <h3 className="mt-4 font-heading text-lg font-bold text-foreground uppercase">
-              Sourcing Service
+              สั่งหาอะไหล่
             </h3>
             <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
-              {"Can't find a part? We'll find it for you. Our global network ensures you get what you need."}
+              {"หาของชิ้นไหนไม่เจอ ทักแชทมาบอกได้ เดี๋ยวเราไปคัดจากเชียงกงให้"}
             </p>
             <button className="mt-4 flex items-center gap-2 text-sm font-medium text-primary transition-colors hover:text-primary/80 cursor-pointer">
               Request a Part

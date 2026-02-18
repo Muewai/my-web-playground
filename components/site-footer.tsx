@@ -30,8 +30,7 @@ export function SiteFooter() {
               Direct<span className="text-primary">Drive</span>
             </span>
             <p className="max-w-xs text-center text-sm text-muted-foreground leading-relaxed md:text-left">
-              High-quality used car and motorcycle parts, plus expert repair and
-              installation services.
+              ศูนย์รวมอะไหล่ถอดแท้และงานซ่อมครบวงจรเพื่อรถที่คุณรัก
             </p>
           </div>
 
@@ -70,7 +69,7 @@ export function SiteFooter() {
 
         {/* Bottom bar */}
         <div className="mt-10 border-t border-border pt-6 text-center text-xs text-muted-foreground">
-          {"© 2026 DirectDrive. All rights reserved."}
+          {"© 2026 DirectDrive. โดยคนรักรถเพื่อคนรักรถ"}
         </div>
       </div>
     </footer>

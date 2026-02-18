@@ -28,7 +28,7 @@ export function HeroSection() {
 
         {/* Sub-headline */}
         <p className="max-w-xl text-lg text-muted-foreground sm:text-xl leading-relaxed">
-          Performance Parts & Expert Service
+          อะไหล่ถอดสภาพดี มีประกัน งานซ่อมจบจริง
         </p>
 
         {/* CTA buttons */}
@@ -37,7 +37,7 @@ export function HeroSection() {
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-primary/90 h-14 px-8 text-base font-semibold tracking-wide uppercase cursor-pointer"
           >
-            Request a Quote
+            เช็คราคา/จองคิวซ่อม
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
           <Button
@@ -45,7 +45,7 @@ export function HeroSection() {
             size="lg"
             className="border-border text-foreground hover:bg-secondary h-14 px-8 text-base cursor-pointer"
           >
-            Browse Parts
+            ดูของในร้าน
           </Button>
         </div>
 

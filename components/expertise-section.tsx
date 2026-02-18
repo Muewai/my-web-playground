@@ -3,9 +3,9 @@
 import { useEffect, useRef, useState } from "react";
 
 const expertiseData = [
-  { label: "Engine Tuning", value: 90 },
-  { label: "Custom Fabrication", value: 85 },
-  { label: "Maintenance", value: 95 },
+  { label: "จูนเครื่องยนต์", value: 90 },
+  { label: "งานดัดแปลง/สร้างอะไหล่", value: 85 },
+  { label: "ซ่อมบำรุงทั่วไป", value: 95 },
 ];
 
 function AnimatedBar({ label, value }: { label: string; value: number }) {
